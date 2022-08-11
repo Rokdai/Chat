@@ -1,0 +1,29 @@
+@import '../../../assets/styles/variables/colors.scss';
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 12px;
+
+  background-color: $blue-light;
+  border: none;
+  border-radius: 5px;
+
+  color: $white;
+
+  outline: none;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: $blue;
+  }
+
+  &:disabled {
+    background-color: $balck-light;
+  }
+}

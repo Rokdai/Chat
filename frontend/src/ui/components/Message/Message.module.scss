@@ -1,0 +1,69 @@
+@import "../../../assets/styles/servicese";
+
+.root {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  max-width: 400px;
+  width: 100%;
+  height: max-content;
+
+  padding: 10px 5px;
+
+  background: $white;
+
+  animation: backlight 3s;
+
+  cursor: pointer;
+}
+
+@keyframes backlight {
+  from {
+    background: $white;
+  }
+  to {
+    background: $blue-light-transparent;
+  }
+}
+
+.messageTitleWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-column-gap: 5px;
+  align-items: center;
+}
+
+.userIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+
+  background: $green-light;
+
+  font-weight: 700;
+  font-size: $font-size-xl;
+  line-height: $line-height-xl;
+
+  color: $white;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 5px;
+  margin: 0;
+}
+
+.dispatchData {
+  margin-right: 10px;
+}

@@ -1,0 +1,9 @@
+@import "../../../assets/styles/servicese";
+
+.root {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, max-content);
+  grid-row-gap: 25px;
+
+  padding: 20px 20px 60px 20px;
+}

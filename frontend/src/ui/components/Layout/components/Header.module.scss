@@ -1,0 +1,17 @@
+@import "../../../../assets/styles/servicese";
+
+.root {
+  width: 100%;
+
+  padding: 40px;
+
+  background-color: $blue-light;
+
+  font-weight: 700;
+  font-size: $font-size-xxl;
+  line-height: $line-height-xxl;
+
+  color: $white;
+
+  text-align: center;
+}
